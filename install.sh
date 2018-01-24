@@ -9,7 +9,7 @@ adduser --system ggc_user
 addgroup --system ggc_group
 
 apt-get update
-apt-get install sqlite3 git rpi-update
+apt-get install -y sqlite3 git rpi-update
 
 rpi-update b81a11258fc911170b40a0b09bbd63c84bc5ad59
 
